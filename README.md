@@ -1,27 +1,47 @@
-# BlogPessoal
+# 📝 Blog Pessoal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+Este repositório contém o código-fonte de um **blog pessoal** desenvolvido com o framework **Angular**, versão **13.1.3**. O projeto tem como objetivo apresentar conteúdos, reflexões e atualizações pessoais em uma interface moderna e responsiva.
 
-## Development server
+## 📌 Versão do Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular CLI: **13.1.3**
+- Node.js recomendado: **>=14.15.0**
+- NPM recomendado: **>=6.14.0**
 
-## Code scaffolding
+## 🛠️ Tecnologias utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 13
+- TypeScript
+- HTML5
+- CSS3
+- JavaScript
+- RxJS
+- Angular Router
 
-## Build
+## 📁 Estrutura do projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- `src/app/`: componentes, serviços e módulos do blog
+- `src/assets/`: imagens e arquivos estáticos
+- `angular.json`: configurações do projeto Angular
+- `package.json`: dependências e scripts
+- `index.html`: ponto de entrada da aplicação
 
-## Running unit tests
+## 🚀 Como instalar e executar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 1. Clone o repositório
 
-## Running end-to-end tests
+`git clone https://github.com/mariana-nogueira21/projeto-angular.git`  
+`cd projeto-angular`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 2. Instale as dependências
+Certifique-se de que você tem o Angular CLI instalado globalmente:  
+`npm install -g @angular/cli`
 
-## Further help
+Depois, instale as dependências do projeto:  
+`npm install`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 3. Execute o servidor de desenvolvimento 
+`ng serve`
+
+A aplicação estará disponível em:  
+`http://localhost:4200`
